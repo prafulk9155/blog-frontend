@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/test" element={<Testing />} />
-      <Route path="/" element={ <h1>Blogging Platform with Markdown Support</h1>} />
+      <Route path="/" element={ <h1 className='text-3xl font-bold underline text-green-800'>Blogging Platform with Markdown Support</h1>} />
     </Routes>
   </BrowserRouter>
   )
